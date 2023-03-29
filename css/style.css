@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.w3-display-topmiddle{
+    margin: 50px auto;
+}
+
+h1.w3-display-topmiddle:hover {
+    font-size: 250%;
+    box-shadow: 0 0 100px white;
+}
+
+.avatar {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(3, 3, 3, 0.22);
+    padding: 5px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.1s ease-out;
+}
+
+.avatar:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
